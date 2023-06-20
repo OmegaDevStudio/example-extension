@@ -1,7 +1,7 @@
 import selfcord
 from selfcord import Extender, Bot
 
-class Ext(Extender, name="Guild", description="Guild related commands here"):
+class Ext(Extender, name="Example", description="Example extension lol"):
     def __init__(self, bot: Bot) -> None:
         self.bot: Bot = bot
 
